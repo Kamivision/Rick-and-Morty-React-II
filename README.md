@@ -1,14 +1,16 @@
-# Rick and Morty React II
+# React + Vite
 
-By the end of this assignment your project should meet the following requirements:
-  
-  - AboutPage.jsx should render general about me information about the show. (Maybe use an API to render this information?)
-  - CharactersPage.jsx should render a Card BootStrap Component (displaying image and information of said character) for every character within the [Rick and Morty API](https://rickandmortyapi.com/)
-    - Maybe use useState, useEffect, axios, async, map, conditional rendering?
-  - Routes for each page mentioned above within Reacts Browser Router
-  - NotFound.jsx should render an error message letting the user know this page does not exist
-  - Error Route to render NotFound.jsx
-  - NavBar.jsx should allow users to navigate your project
-  - Testing with Cypress to ensure all requirements are being met
-  - Styling from React BootStrap or Tailwind.css
-  - Have fun!
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
